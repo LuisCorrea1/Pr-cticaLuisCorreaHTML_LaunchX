@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="PegasusIcon.png">
+    <link rel="stylesheet" href="PasteleriaPegasus.css">
+    <title>Pegasus</title>
+</head>
+<body>
+    <header>
+        <ul class="Menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Sucursales</a></li>
+            <li><a href="#">Galería</a></li>
+        </ul>
+    </header>
+    
+    <table id="Imagenes">
+        <tr>
+            <td><img src="P1.jpg" id="T1"></td>
+            <td><img src="P2.jpg" id="T1"></td>
+            <td><img src="P3.jpg" id="T1"></td>
+            <td><img src="P4.jpg" id="T1"></td>
+            <td><img src="P5.jpg" id="T1"></td>
+            <td><img src="P6.jpg" id="T1"></td>
+            <td><img src="P7.jpg" id="T1"></td>
+        </tr>
+    </table>
+    <br><br>
+
+    <table width="75%" id="Formulario" >
+        <tr>
+            <th>Con sabores de otra Galaxia</th>
+            <th>Sabores</th>
+            <th>Adornos</th>
+        </tr>
+        <td>
+            <img src="Pegasus.png" alt="LogoPegasus" id="Logo">
+        </td>
+        <td >
+            <p>Mango .............. $150.00</p>
+            <p>Fresa .............. $125.00</p>
+            <p>Chocolate ...........$170.00</p>
+            <p>Plátano ............ $205.00</p>
+            <p>Mamey .............. $240.00</p>
+            <p>3 Leches ........... $290.00</p>
+        </td>
+        <td>
+            <p>Chocolates ........... $55.00</p>
+            <p>Fresas ............... $70.00</p>
+            <p>Chispitas ............ $40.00</p>
+            <p>Mermelada ............ $68.00</p>
+            <p>Dulces ............... $50.00</p>
+            <p>Azucar Glass ......... $30.00</p>
+        </td>
+        <tr>
+            <th colspan="3" style="font-size: large;">No te resistas! Mata tu antojo</th>
+        </tr>
+    </table>
+    <br>
+    <form action="Pedido.js">
+        
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre Completo"><br>
+        
+        <input type="tel" name="Telefono" id="Telefono" maxlength="10" placeholder="Teléfono"><br>
+        
+        <input type="mail" name="Correo" id="Correo" placeholder="Correo electrónico"><br>
+        
+        <textarea name="Comentarios" id="Comentarios" cols="22" rows="5" placeholder="Cuentanos sobre tu pastel ideal"></textarea>
+        <table style="width: 100%" id="Decor">
+            <tr >
+                <th colspan="2">Arma tu pastel</th>
+            </tr>
+            <tr>
+                <th>Sabores</th>
+                <th>Adornos</th>
+            </tr>  
+            <tr>
+                <td>
+                    <label for="S_Chocolate"><input type="checkbox" name="S_Chocolate" id="S_Chocolate">Chocolate</label><br>
+                    <label for="S_Mango"><input type="checkbox" name="S_Mango" id="S_Mango">Mango</label><br>
+                    <label for="S_Fresa"><input type="checkbox" name="S_Fresa" id="S_Fresa">Fresa</label><br>
+                    <label for="S_Platano"><input type="checkbox" name="S_Platano" id="S_Platano">Plátano</label><br>
+                    <label for="S_Mamey"><input type="checkbox" name="S_Mamey" id="S_Mamey">Mamey</label><br>
+                    <label for="S_3Leches"><input type="checkbox" name="S_3Leches" id="S_3Leches">3 Leches</label><br>
+                </td>
+                <td>
+                    <label for="A_Chocolate"><input type="checkbox" name="A_Chocolate" id="A_Chocolate">Chocolates</label><br>
+                    <label for="A_Chispitas"><input type="checkbox" name="A_Chispitas" id="A_Chispitas">Chispitas</label><br>
+                    <label for="A_Fresa"><input type="checkbox" name="A_Fresa" id="A_Fresa">Fresas</label><br>
+                    <label for="A_Mermelada"><input type="checkbox" name="A_Mermelada" id="A_Mermelada">Mermelada</label><br>
+                    <label for="A_Dulces"><input type="checkbox" name="A_Dulces" id="A_Dulces">Dulces</label><br>
+                    <label for="A_Azucar"><input type="checkbox" name="A_Azucar" id="A_Azucar">Azucar Glass</label><br>
+                </td>
+            </tr>
+        </table>
+            <button id="Pedir" name="Pedir" type="reset" onclick="alert('Gracias por tu confianza! En breves te llegará un correo con la confirmación de tu pedido')">Pedir</button>
+
+        
+    </form>
+    <br><br><br><br><br><br><br><br><br>
+    
+    <div class="Pie">
+        <div class="Info">
+            <h2>Encuentranos en <br>
+                Av. Solidaridad No.7329-A, Valle de santa Lucia C.P.64140 <br>
+            De Lunes a Sábado 8:00 am a 9:00 pm</h2>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+#Imagenes {
+    position: absolute;
+    left: 0px;
+    top: 10%;
+    margin: auto;
+    border-top: 3px solid #DBD9D8;
+    border-bottom: 3px solid #DBD9D8;
+}
+
+#T1 {
+    height: 175px;
+    width: 267px;
+    margin: auto;
+}
+
+#Formulario{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    border-spacing: 35px;
+    text-align: center;
+    background-color: #e6ddc7;
+}
+
+#Formulario th{
+    background-color: #ebd59a;
+}
+
+th{
+    border-bottom: 3px solid #DBD9D8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Header{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+/*--------------------------------Estilo del Menu--------------------------------*/
+.Menu{
+    background-color: #ebb217;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.Menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.Menu li{
+    display: inline-block;
+    text-align: center;
+    border-color: white;
+}
+.Menu li a:hover{
+    background-color: #ffffff;
+}
+
+/*--------------------------------------------------------------------------*/
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    height: 175px;
+    width: 100%;
+}
+
+#Logo {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    
+    transform: translate(-50%,-50%);
+}
+
+#Hacer_pedido {
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+}
+
+.Pie{
+    background-color: #ebb217;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.Info{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+/*Estilo de formulario*/
+form{
+    padding: 60px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #E7E7E7;
+    
+}
+
+form #Nombre , form #Telefono , form #Correo , form textarea{
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: none; 
+}
+
+form button {
+    display: block;
+	background-color: #ebb217;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+}
+
+form button:hover {
+	background-color: #ebd59a;
+}
+
+textarea {  resize: none;}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+#Decor {
+    font-family: "Roboto", sans-serif;
+    padding: 12px;
+}
+
+.Eslogan{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 8%;
+    left: 0px;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    background-image: url(./Es.jpg);
+}
+
+.Pedido{
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    
+}
+
+.Ingredientes{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Ingredientes table{
+    margin: auto;
+    width: 100%;
+    border-spacing: 25px;
+    text-align: center;
+    background-color: #e6ddc7;
+}
+
+.Pedido table{
+    width: 50%;
+    text-align: center;
+    border: 2px solid #ebb217;
+    border-radius: 3px;
+    border-spacing: 10px;
+    margin: auto;
+    background-color: #ece1c3;
+}
+
+.Pedido table img{
+    width: 85px;
+    height: 85px;
+}
+
+.Ingredientes table th{
+    background-color: #ebd59a;
+}
+.Pedido table ul li{
+    text-align: left;
+}
+
